@@ -57,18 +57,10 @@ function AppAppBar(props) {
               color="inherit"
               variant="h6"
               underline="none"
-              className={classes.rightLink}
+              className={clsx(classes.rightLink, classes.linkSecondary)}
               href="/premium-themes/onepirate/sign-in/"
             >
               {'Iniciar sesion'}
-            </Link>
-            <Link
-              variant="h6"
-              underline="none"
-              className={clsx(classes.rightLink, classes.linkSecondary)}
-              href="/premium-themes/onepirate/sign-up/"
-            >
-              {'Registrarse'}
             </Link>
           </div>
         </Toolbar>

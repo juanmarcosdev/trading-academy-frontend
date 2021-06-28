@@ -57,11 +57,10 @@ function ProductValues(props) {
                 alt="study"
               />
               <Typography variant="h6" className={classes.title}>
-                Novedosas técnicas de estudio
+                Estudia a tu ritmo
               </Typography>
-              <Typography variant="h5">
-                {'Con el material minuciosamente seleccionado que ofrecemos en la academia,'}
-                {'aprenderás trading de alta calidad, a tu propio ritmo'}
+              <Typography variant="h5" align="center">
+                Te ofrecemos todo el material de la plataforma <i>on-demand</i> para que estudies donde quieras, cuando quieras.
               </Typography>
             </div>
           </Grid>
@@ -70,14 +69,13 @@ function ProductValues(props) {
               <img
                 className={classes.image}
                 src="https://image.flaticon.com/icons/png/512/2910/2910234.png"
-                alt="graph"
+                alt="quality"
               />
               <Typography variant="h6" className={classes.title}>
-                New experiences
+                La más alta calidad
               </Typography>
-              <Typography variant="h5">
-                {'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '}
-                {'your Sundays will not be alike.'}
+              <Typography variant="h5" align="center">
+                Todos los recursos que encuentras en nuestra academia son minuciosamente seleccionados y evaluados, para que aprendas de los mejores.
               </Typography>
             </div>
           </Grid>
@@ -86,14 +84,13 @@ function ProductValues(props) {
               <img
                 className={classes.image}
                 src="https://image.flaticon.com/icons/png/512/1077/1077976.png"
-                alt="clock"
+                alt="money"
               />
               <Typography variant="h6" className={classes.title}>
-                Exclusive rates
+                Hazlo realidad
               </Typography>
-              <Typography variant="h5">
-                {'By registering, you will access specially negotiated rates '}
-                {'that you will not find anywhere else.'}
+              <Typography variant="h5" align="center">
+                Con los conocimientos que adquieres con nosotros, no tardarás en empezar a generar ganancias.
               </Typography>
             </div>
           </Grid>

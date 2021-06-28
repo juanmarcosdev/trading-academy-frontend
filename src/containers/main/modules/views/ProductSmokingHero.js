@@ -35,13 +35,13 @@ function ProductSmokingHero(props) {
     <Container className={classes.root} component="section">
       <Button className={classes.button}>
         <Typography variant="h4" component="span">
-          Got any questions? Need help?
+          Dudas? Necesitas ayuda?
         </Typography>
       </Button>
       <Typography variant="subtitle1" className={classes.link}>
-        We are here to help. Get in touch!
+        Estamos para ayudarte, contáctanos.
       </Typography>
-      <img src="/static/themes/onepirate/producBuoy.svg" className={classes.buoy} alt="buoy" />
+      <img src="https://image.flaticon.com/icons/png/512/3450/3450612.png" className={classes.buoy} alt="buoy" />
     </Container>
   );
 }
