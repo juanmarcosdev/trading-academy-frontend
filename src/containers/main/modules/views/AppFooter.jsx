@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import Container from '@material-ui/core/Container';
 import Typography from '../components/Typography';
-import TextField from '../components/TextField';
 
 function Copyright() {
   return (
@@ -61,16 +60,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const LANGUAGES = [
-  {
-    code: 'en-US',
-    name: 'English',
-  },
-  {
-    code: 'fr-FR',
-    name: 'Français',
-  },
-];
 
 export default function AppFooter() {
   const classes = useStyles();
@@ -88,8 +77,8 @@ export default function AppFooter() {
               spacing={2}
             >
               <Grid item className={classes.icons}>
-                <a href="https://material-ui.com/" className={classes.icon}>
-                  <img src="https://image.flaticon.com/icons/png/512/87/87390.png" width="35" height="35" alt="Instagram" />
+                <a href="/adminauth" className={classes.icon}>
+                  <img src="https://image.flaticon.com/icons/png/512/2082/2082800.png" width="35" height="35" alt="Admin" />
                 </a>
               </Grid>
               <Grid item>
